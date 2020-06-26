@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif;
+    background-color: #b07cf7;
+    color: #fff;
+  }
+  
+  p {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+ .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+ .heading {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.heading-title {
+      margin: 0px;
+      font-size: 90px;
+}
+
+.heading-description {
+    font-size: 17px;
+    margin-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin: -15px;
+}
+  
+.grid-item {
+    width: calc(100% / 3);
+    margin-top: 80px;
+
+}
+  
+.card {
+    position: relative;
+    display: flex;
+    margin: 5px;
+}
+  
+  .card-image {
+  position: absolute;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card-date {
+    border-radius: 5px;
+    background-color: rgb(38, 38, 38, 0.5);
+    width: 60px;
+    height: 60px;  
+    left: 30px;
+    top: 30px;
+    text-align: center;
+    position: absolute;
+}
+
+  
+.card-date-day {
+      font-size: 32px;
+      font-weight: 700;
+}
+
+.card-date-month {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: -5px;
+}
+  
+
+.card-author {
+    position: absolute;
+    left: 30px;
+    top: 280px;
+    font-size: 13px;
+}
+
+.card-title {
+    position: absolute;
+    left: 30px;
+    top: 220px;
+    font-size: 20px;
+    font-weight: 700;
+    padding-right: 70px;
+}
+
+.footer {
+    margin-top: 400px;
+    width: 200px;
+    background-color: #f72b3b;
+    margin-left: auto;
+    margin-right: auto; 
+    text-transform: uppercase;    
+}
+
+.button {
+    display: block;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+.button:hover {
+    opacity: 0.5;
+  }
