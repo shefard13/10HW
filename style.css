@@ -32,8 +32,8 @@ body {
 .heading-description {
     font-size: 17px;
     margin-top: 20px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 25%;
+    padding-right: 25%;
     margin-bottom: 50px;
   }
 
@@ -44,7 +44,7 @@ body {
   
 .grid-item {
     width: calc(100% / 3);
-    height: 300px;
+    height: 50vh;
 }
   
 .card {
@@ -168,3 +168,15 @@ body {
 .button:hover {
     opacity: 0.5;
   }
+
+  @media screen  and (max-width: 600px){
+    .grid-item {
+        width: 100%;
+    }
+    .button
+    {
+        min-width: 100%;
+    }
+    .heading-description{
+       padding: 5px;
+}
